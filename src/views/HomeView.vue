@@ -12,8 +12,14 @@
 </script>
 
 <template>
-  <main>
-    <div class="row" style="width: 100vw">
+  <main >
+    <nav class="navbar fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Aeorion Orders</a>
+        <router-link to="/cart" class="btn btn-link text-decoration-none text-black" style="padding-right: 15px"><i class="bi bi-cart3" style="font-size: 20px"></i> Cart</router-link>
+      </div>
+    </nav>
+    <div class="row" style="width: 100vw; height: calc(100vh - 60px); margin-top: 60px">
       <div class="col-md-3 col-lg-3">
         <div style="display: flex; align-items: center; height: 100vh">
           <ul class="nav flex-column">

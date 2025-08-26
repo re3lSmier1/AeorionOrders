@@ -34,12 +34,12 @@
               <div style="margin-top: 15px">
                 <a class="btn btn-success w-100" type="button" href="#" style="text-align: center">
                   <div style="font-size: large; font-weight: bold">Add</div>
-                  <div style="color: gold; font-size: small; margin-top: -7px">$400.00</div>
-                </a>
 
+                </a>
+                                  <div style="color: darkgreen; font-size: small;">$400.00</div>
               </div>
             </div>
-            <br>
+
             <ul class="nav nav-underline" id="myTab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
